@@ -1,0 +1,23 @@
+mkdir Rep1
+mkdir Rep2
+mkdir Rep3
+cd /Rep1
+mkdir Rep11 
+cd Rep11
+touch file111
+touch file112
+cd /Rep2
+touch file21
+touch file22         
+cd /Rep3
+touch file31
+cd
+print
+cp Rep2 Rep3/Rep2bis
+print
+rm /Rep2
+print
+mv /Rep3/Rep2bis Rep2
+print
+
+

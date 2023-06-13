@@ -1,0 +1,16 @@
+mkdir a
+mkdir A
+
+cd A 
+pwd
+mkdir A1
+cd A1
+mkdir A11
+cd A11
+cd ../../..
+ls
+
+
+rm /
+
+

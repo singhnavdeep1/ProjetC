@@ -1,0 +1,6 @@
+mkdir Rep1
+mkdir Rep2
+touch file3
+cd Rep2
+touch doc
+mv /Rep1 doc

@@ -1,0 +1,23 @@
+mkdir Documents
+mkdir Telechargements
+mkdir Perso
+
+cd Documents
+touch danse
+mkdir Cours
+cd Cours
+mkdir C
+print
+mv C /Perso/C
+print
+cd ..
+cp Cours /Perso/C/Coursbis
+print
+cd 
+rm Perso/C
+cd Perso
+ls
+cd /Documents/Cours
+ls
+print
+
